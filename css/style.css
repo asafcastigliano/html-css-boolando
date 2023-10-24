@@ -37,15 +37,16 @@
 .discount{
     background-color: #ff0000;
     position: absolute;
-    bottom: 50px;
+    bottom: 70px;
     width: 40px;
 }
 
 .sostenibility{
     background-color: #008000;
-    position: relative;
-    bottom: 50px;
+    position: absolute;
+    bottom: 70px;
     left: 45px;
+    width: 100px;
 }
 
 .color-white{
@@ -58,4 +59,33 @@
 
 .product{
     position: relative;
+}
+
+.discount-text{
+    text-decoration: line-through;
+}
+
+.price-text{
+    color: #ff0e0e;
+    font-weight: bold;
+}
+
+.show{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.product:hover .hidden{
+    display: block;
+}
+
+.product:hover .show{
+    display: none;
+}
+
+.color-red{
+    color: red;
 }
